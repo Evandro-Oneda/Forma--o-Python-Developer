@@ -1,10 +1,14 @@
-T = int(input())
-while T > 0:
-  T -= 1
-  N, K = input().split()
-  N = int(N)
-  K = int(K)
-  total = int(int(N % K) + int(N / K))
-   
-  print(total)
-   
+
+
+class Foo:
+    def hello(self):
+        print(self.__class__.__name__.lower())
+
+
+class Bar(Foo):
+    def hello(self):
+        return super().hello()
+
+
+bar = Bar()
+bar.hello()
