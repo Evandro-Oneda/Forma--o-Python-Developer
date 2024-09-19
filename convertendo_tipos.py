@@ -1,7 +1,8 @@
-preco= str(15)
-print(type(preco))
+preco = 10
+print(preco)
 
-idade = 29
-nome = "Evandro"
-texto = f"idade {idade} nome {nome}"
-print(texto)
+preco = str(preco)
+print(preco)
+
+preco = float(preco)
+print(type(preco))

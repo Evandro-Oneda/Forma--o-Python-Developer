@@ -1,4 +1,4 @@
-"""x=set([1,2,3,1,3,4])
+x=set([1,2,3,1,3,4])
 print(x)
 
 x=set("abacaxi")
@@ -6,8 +6,9 @@ print(x)
 
 x=set(("palio", "gol", "celta","palio"))
 x= list(x)
+print(x)
 print(type(x))
-"""
+
 
 carros = {"gol","celta","palio"}
 

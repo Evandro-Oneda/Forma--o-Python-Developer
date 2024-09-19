@@ -10,11 +10,11 @@ pessoa["nome"] = "evandro"
 print(pessoa["nome"])
 
 contatos ={
-    "teste1":{"nome1": "nome1", "telefone1":"telefone1"},
-    "teste2":{"nome2": "nome2", "telefone1":"telefone2"},
-    "teste3":{"nome3": "nome3", "telefone1":"telefone3"}
+    "teste1":{"nome": "nome1", "telefone":"telefone1"},
+    "teste2":{"nome": "nome2", "telefone":"telefone2"},
+    "teste3":{"nome": "nome3", "telefone":"telefone3"}
 }
-print(contatos["teste1"]["telefone1"])
+print(contatos["teste1"]["telefone"])
 
 
 for chave in contatos:

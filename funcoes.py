@@ -1,4 +1,4 @@
-"""def exibir_mensagem():
+def exibir_mensagem():
     print("ola mundo")
 
 def exibir_mensagem_2(nome):
@@ -8,7 +8,7 @@ def exibir_mensagem_3(nome="anonimo"):
     print(f"seja bem vindo {nome}!")
 
 exibir_mensagem()
-exibir_mensagem_2(nome="guilehrme")
+exibir_mensagem_2(nome="guilherme")
 exibir_mensagem_3()
 exibir_mensagem_3(nome="chapie")
 
@@ -35,7 +35,6 @@ salvar_carro(marca="fiat", modelo="palio", ano=1999, placa="abc-1234")
 salvar_carro(**{"marca": "fiat", "modelo":"palio", "ano":1999, "placa":"abc-1234"})
 salvar_carro(*("fiat", "palio", 1999, "abc-1234"))
 
-"""
 
 def exibir_poema(data_extenso, *args, **kwargs):
     texto = "\n".join(args)
